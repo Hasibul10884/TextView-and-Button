@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:text="Hey I am Hassibul Islam"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+
+        android:foregroundGravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#3F51B5"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="I am professional android app developer. I am from diu. I  am completed 5 project in github."
+        android:layout_below="@+id/textview"
+        android:id="@+id/textview1"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_dark_background"
+         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Support Me"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
